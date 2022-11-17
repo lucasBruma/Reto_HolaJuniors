@@ -52,19 +52,21 @@ NAV
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 
-.nav__button a{
-    margin: 0 auto;
-}
-
-.nav__button a p{
-    width: 41px;
+.nav__button span{
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: #1e0e62;
+    margin: 0 auto;
+}
+
+.nav__button:hover{
+    border: none;
+    background-color: #EBEAED;
+    transition: all 1.1s ;
 }
 
 @media (width<600px) {
@@ -251,24 +253,28 @@ EXPERIENCIA
 
 .grid-layout{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-template-rows: 480px;
     margin: 80px 0 122px 0;
 }
 
-.experience__titles button{
+.experience__titles a button{
     margin-top: 65px;
     border-radius: 100px;
     background: #25dac5;
     border: 0;
     width: 140px;
     height: 50px;
-}
-
-.experience__titles button a{
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.experience__titles a button:hover{
+    background-color: #F1F1F1;
+    color: rgba(21,20,57,0.4);
+    transition: all 0.8s ease;
 }
 
 
@@ -278,14 +284,14 @@ EXPERIENCIA
 
 .experience__project-img{
     width: 100%;
-    height: 50%;
+    height: 63%;
 
 }
 
 .experience__project-img img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 10px;
 }
 
@@ -303,6 +309,11 @@ EXPERIENCIA
 
 .experience__project-content p a{
     color: rgba(21,20,57,0.4);
+}
+
+.experience__links a:hover{
+    color:rgba(42, 42, 111,0.7);
+    transition: all 0.7s ease;
 }
 
 @media (width<850px) {
