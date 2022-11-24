@@ -14,6 +14,14 @@
     <nav class="nav">
         <div class="nav__container">
             <h3>Lucas Brumatti</h3>
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./banderas/es.svg" alt="" />
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./banderas/gb.svg" alt="" />
+                </div>
+            </div>
             <a class="nav__button" href="mailto:lucasbrumatti99@gmail.com" target= "blank">
                 <span>Email</span>
             </a>
@@ -22,11 +30,11 @@
     <section class="presentation">
         <div class="presentation__txt">
             <div class="presentation__txt-title">
-                <h1>Hola, soy Lucas.<br>
+                <h1 data-section="presentation" data-value="salutation">Hola, soy Lucas.<br>
                     Frontend Developer</h1>
             </div>
             <div class="presentation__txt-content">
-                <p>
+                <p data-section="presentation" data-value="intro-content">
                     Estudio programación en UNSAM y actualmente estoy realizando distintos proyectos utilizando HTML, CSS y Javascript.
                     Además estoy muy interesado en el mundo Web3, por lo que me encantaría trabajar en un proyecto relacionado.
                 </p>
@@ -40,20 +48,20 @@
     <section class="skills">
         <div class="skills__container">
             <div class="skill__titles titles">
-                <h1>Mis habilidades</h1>
+                <h1 data-section="skills" data-value="title">Mis habilidades</h1>
             </div>
             <div class="skills__content">
                 <div class="skill">
-                    <h3>HTML, CSS y Javascript</h3>
-                    <p>Cursos en youtube y en plataformas como "Platzi" me permitieron aprender estas tecnologías que me sirvieron para desarrollar programas, como los que presento en el apartado de experiencia.</p>
+                    <h3 data-section="skills" data-value="skill-1" data-secondValue="title">HTML, CSS y Javascript</h3>
+                    <p data-section="skills" data-value="skill-1" data-secondValue="content">Cursos en youtube y en plataformas como "Platzi" me permitieron aprender estas tecnologías que me sirvieron para desarrollar programas, como los que presento en el apartado de experiencia.</p>
                 </div>
                 <div class="skill">
-                    <h3>Inglés</h3>
-                    <p>Avanzado. He rendido FCE de Cambridge con éxito; pero además de lo academico, estoy constantemente leyendo libros y escuchando podcasts sobre productividad y desarrollo personal en este idioma.</p>
+                    <h3 data-section="skills" data-value="skill-2" data-secondValue="title">Inglés</h3>
+                    <p data-section="skills" data-value="skill-2" data-secondValue="content">Avanzado. He rendido FCE de Cambridge con éxito; pero además de lo academico, estoy constantemente leyendo libros y escuchando podcasts sobre productividad y desarrollo personal en este idioma.</p>
                 </div>
                 <div class="skill">
-                    <h3>Notion</h3>
-                    <p>Herramienta que me es de gran utilidad para organizar mi vida y los proyectos que voy haciendo.</p>
+                    <h3 data-section="skills" data-value="skill-3" data-secondValue="title">Notion</h3>
+                    <p data-section="skills" data-value="skill-3" data-secondValue="content">Herramienta que me es de gran utilidad para organizar mi vida y los proyectos que voy haciendo.</p>
                 </div>
             </div>
         </div>
@@ -62,7 +70,7 @@
     <section class="experience">
         <div class="experience__container">
             <div class="experience__titles titles">
-                <h1>Mi experiencia</h2>
+                <h1 data-section="experience" data-value="title">Mi experiencia</h2>
                 <a href="https://github.com/lucasbruma" target= "blank"> 
                     <button>GitHub</button>
                 </a>  
@@ -73,9 +81,9 @@
                         <img src="fotos/weatherApp.png" alt="weatherApp">
                     </div>
                     <div class="experience__project-content">
-                        <h3>Weather App</h3>
-                        <p class="experience__main-paragraph">Básicamente, es una app del clima que te permite consultar el clima y el pronostico para la ubicación donde te encontrás u otras ciudades en tiempo real.</p>
-                        <p class="experience__links"><a href="https://github.com/lucasBruma/weatherApp" target="blank">GitHub del proyecto</a> | <a href="https://lucasbruma.github.io/weatherApp/" target="blank">Página</a></p>
+                        <h3 data-section="experience" data-value="project-1" data-secondValue="title">Aplicación del clima</h3>
+                        <p data-section="experience" data-value="project-1" data-secondValue="description" class="experience__main-paragraph">Básicamente, es una app del clima que te permite consultar el clima y el pronostico para la ubicación donde te encontrás u otras ciudades en tiempo real.</p>
+                        <p class="experience__links"><a data-section="experience" data-value="project-1" data-secondValue="github" href="https://github.com/lucasBruma/weatherApp" target="blank">GitHub del proyecto</a> | <a data-section="experience" data-value="project-1" data-secondValue="page" href="https://lucasbruma.github.io/weatherApp/" target="blank">Página</a></p>
                     </div>
                 </div>
                 <div class="experience__project">
@@ -83,9 +91,9 @@
                         <img src="fotos/proyecto1.png" alt="Proyecto del mundial">
                     </div>
                     <div class="experience__project-content">
-                        <h3>Pronóstico para el mundial 2022</h3>
-                        <p class="experience__main-paragraph">El juego se trata de ir eligiendo tus equipos favoritos desde las fases iniciales hasta la final. Además, posee un apartado donde podes ver los resultados de todos los partidos en tiempo real.</p>
-                        <p class="experience__links"><a href="https://github.com/lucasBruma/pronostico-mundial" target="blank">GitHub del proyecto</a> | <a href="https://lucasbruma.github.io/pronostico-mundial/" target="blank">Página</a></p>
+                        <h3 data-section="experience" data-value="project-2" data-secondValue="title">Pronóstico para el mundial 2022</h3>
+                        <p data-section="experience" data-value="project-2" data-secondValue="description" class="experience__main-paragraph">El juego se trata de ir eligiendo tus equipos favoritos desde las fases iniciales hasta la final. Además, posee un apartado donde podes ver los resultados de todos los partidos en tiempo real.</p>
+                        <p class="experience__links"><a data-section="experience" data-value="project-2" data-secondValue="github" href="https://github.com/lucasBruma/pronostico-mundial" target="blank">GitHub del proyecto</a> | <a data-section="experience" data-value="project-2" data-secondValue="page" href="https://lucasbruma.github.io/pronostico-mundial/" target="blank">Página</a></p>
                     </div>
                 </div>
                 <div class="experience__project">
@@ -93,9 +101,9 @@
                         <img src="fotos/proyectoCripto.png" alt="Proyecto Cripto">
                     </div>
                     <div class="experience__project-content">
-                        <h3>Proyecto Cripto</h3>
-                        <p class="experience__main-paragraph">Lista de las 25 criptos de mayor market cap. Y también cotización de algunas criptos en tres monedas FIAT. Consumo de la API de CoinGecko.</p>
-                        <p class="experience__links"><a href="https://github.com/lucasBruma/marketCap-cotizacion" target="blank">GitHub del proyecto</a> | <a href="https://lucasbruma.github.io/marketCap-cotizacion/index.html" target="blank">Página</a></p>
+                        <h3 data-section="experience" data-value="project-3" data-secondValue="title">Proyecto Cripto</h3>
+                        <p data-section="experience" data-value="project-3" data-secondValue="description" class="experience__main-paragraph">Lista de las 25 criptos de mayor market cap. Y también cotización de algunas criptos en tres monedas FIAT. Consumo de la API de CoinGecko.</p>
+                        <p class="experience__links"><a data-section="experience" data-value="project-3" data-secondValue="github" href="https://github.com/lucasBruma/marketCap-cotizacion" target="blank">GitHub del proyecto</a> | <a data-section="experience" data-value="project-3" data-secondValue="page" href="https://lucasbruma.github.io/marketCap-cotizacion/index.html" target="blank">Página</a></p>
                     </div>
                 </div>
                 <div class="experience__project">
@@ -103,9 +111,9 @@
                         <img src="fotos/templates.png" alt="Templates">
                     </div>
                     <div class="experience__project-content">
-                        <h3>Templates para pizzerias</h3>
-                        <p class="experience__main-paragraph">La realización de estas landing pages me permitieron mejorar mis skills en HTML y CSS.</p>
-                        <p class="experience__links"><a href="https://github.com/lucasBruma/templates-pizzerias" target="blank">GitHub del proyecto</a> | <a href="https://lucasbruma.github.io/templates-pizzerias/" target="blank">Página</a></p>
+                        <h3 data-section="experience" data-value="project-4" data-secondValue="title" >Templates para pizzerias</h3>
+                        <p data-section="experience" data-value="project-4" data-secondValue="description" class="experience__main-paragraph">La realización de estas landing pages me permitieron mejorar mis skills en HTML y CSS.</p>
+                        <p class="experience__links"><a data-section="experience" data-value="project-4" data-secondValue="github" href="https://github.com/lucasBruma/templates-pizzerias" target="blank">GitHub del proyecto</a> | <a data-section="experience" data-value="project-4" data-secondValue="page" href="https://lucasbruma.github.io/templates-pizzerias/" target="blank">Página</a></p>
                     </div>
                 </div>
             </div>
@@ -115,7 +123,7 @@
     <footer>
         <div class="footer__container">
             <div class="footer__content">
-                <h2 class="footer__content-title">Si necesita mas información:</h2>
+                <h2 data-section="footer" data-value="text" class="footer__content-title">Si necesita mas información:</h2>
                 <a href="mailto:lucasbrumatti99@gmail.com" target= "blank"> 
                     <h2 class="footer__content-mail">lucasbrumatti99@gmail.com</h2>
                 </a>
@@ -139,5 +147,6 @@
             </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>

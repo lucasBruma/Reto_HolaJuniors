@@ -1,0 +1,51 @@
+{
+    "presentation":{
+        "salutation": "Hola, soy Lucas.<br>Frontend Developer",
+        "intro-content": "Estudio programación en UNSAM y actualmente estoy realizando distintos proyectos utilizando HTML, CSS y Javascript.<br>Además estoy muy interesado en el mundo Web3, por lo que me encantaría trabajar en un proyecto relacionado."
+    },
+    "skills":{
+        "title":"Mis habilidades",
+        "skill-1":{
+            "title":"HTML, CSS y Javascript",
+            "content":"Cursos en youtube y en plataformas como 'Platzi' me permitieron aprender estas tecnologías que me sirvieron para desarrollar programas, como los que presento en el apartado de experiencia."
+        },
+        "skill-2":{
+            "title":"Inglés",
+            "content":"Avanzado. He rendido FCE de Cambridge con éxito; pero además de lo academico, estoy constantemente leyendo libros y escuchando podcasts sobre productividad y desarrollo personal en este idioma."
+        },
+        "skill-3":{
+            "title":"Notion",
+            "content":"Herramienta que me es de gran utilidad para organizar mi vida y los proyectos que voy haciendo."
+        }
+    },
+    "experience":{
+        "title":"Mi experiencia",
+        "project-1":{
+            "title":"Aplicación del clima",
+            "description":"Básicamente, es una app del clima que te permite consultar el clima y el pronostico para la ubicación donde te encontrás u otras ciudades en tiempo real.",
+            "github":"GitHub del proyecto",
+            "page":"Página"
+        },
+        "project-2":{
+            "title":"Pronóstico para el mundial 2022",
+            "description":"El juego se trata de ir eligiendo tus equipos favoritos desde las fases iniciales hasta la final. Además, posee un apartado donde podes ver los resultados de todos los partidos en tiempo real.",
+            "github":"GitHub del proyecto",
+            "page":"Página"
+        },
+        "project-3":{
+            "title":"Proyecto Cripto",
+            "description":"Lista de las 25 criptos de mayor market cap. Y también cotización de algunas criptos en tres monedas FIAT. Consumo de la API de CoinGecko.",
+            "github":"GitHub del proyecto",
+            "page":"Página"
+        },
+        "project-4":{
+            "title":"Templates para pizzerias",
+            "description":"La realización de estas landing pages me permitieron mejorar mis skills en HTML y CSS.",
+            "github":"GitHub del proyecto",
+            "page":"Página"
+        }
+    },
+    "footer":{
+        "text":"Si necesita mas información:"
+    }
+}

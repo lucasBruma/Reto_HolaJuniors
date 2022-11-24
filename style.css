@@ -71,11 +71,28 @@ NAV
 
 @media (width<600px) {
     .nav__container h3{
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .nav__button{
-        margin-right: 30px;
+        margin-right: 20px;
     }
+}
+
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flags__item{
+    width: 30px;
+}
+
+.flags__item img{
+    display: block;
+    cursor: pointer;
+    border-radius: 6px;
 }
 
 /*
@@ -158,7 +175,7 @@ HABILIDADES
 */
 
 .skills{
-    height: 700px;
+    height: 600px;
     background-color: #F1F1F1;
     display: flex;
     flex-direction: column;
@@ -397,3 +414,4 @@ footer{
     }
     
 }
+

@@ -1,0 +1,51 @@
+{
+    "presentation":{
+        "salutation": "Hey! I'm Lucas.<br>Frontend Developer",
+        "intro-content": "I study an undergrade Computer science career in UNSAM and I'm currently doing projects in order to enhance the technologies that I've been learning (HTML, CSS and JS)<br>Besides, I'm also very interested in web3. I would love to work in something related to that."
+    },
+    "skills":{
+        "title":"My skills",
+        "skill-1":{
+            "title":"HTML, CSS and Javascript",
+            "content":"Youtube courses and 'Platzi' courses has enabled me to learn these technologies that has allowed me to code apps, such as the ones that I show in 'My experience'."
+        },
+        "skill-2":{
+            "title":"English",
+            "content":"Advanced. I've passed Cambridge FCE test successfully. But apart from that, I'm constantly reading books and listening to podcast about productivity and self development in this language."
+        },
+        "skill-3":{
+            "title":"Notion",
+            "content":"I use this tool to organize my life and every project I do."
+        }
+    },
+    "experience":{
+        "title":"My experience",
+        "project-1":{
+            "title":"Weather App",
+            "description":"Basically, it is a weather app where you can check the weather and forecast of your city or other cities in realtime.",
+            "github":"Github of this project",
+            "page":"Page"
+        },
+        "project-2":{
+            "title":"World cup 2022 predictor",
+            "description":"This game is about choosing your favorite teams from the initial phases to the final. Also, there is another page where you can check the status of every game in real time.",
+            "github":"Github of this project",
+            "page":"Page"
+        },
+        "project-3":{
+            "title":"Crypto Project",
+            "description":"List of the 25 cryptos by market cap.",
+            "github":"Github of this project",
+            "page":"Page"
+        },
+        "project-4":{
+            "title":"Pizza shops templates",
+            "description":"The realization of these landing pages allowed me to improve my skills in HTML and CSS.",
+            "github":"Github of this project",
+            "page":"Page"
+        }
+    },
+    "footer":{
+        "text":"In case you need more information:"
+    }
+}
