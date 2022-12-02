@@ -34,7 +34,7 @@
         },
         "project-3":{
             "title":"Crypto Project",
-            "description":"List of the 25 cryptos by market cap.",
+            "description":"List of the 25 cryptos by market cap. And also the price of some cryptos in three FIAT currencies. (CoinGecko API)",
             "github":"Github of this project",
             "page":"Page"
         },
