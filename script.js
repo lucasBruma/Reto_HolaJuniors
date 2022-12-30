@@ -9,9 +9,6 @@ const changeLanguage = async language =>{
         const section = textToChange.dataset.section;
         const value = textToChange.dataset.value;
         const secondValue = textToChange.dataset.secondvalue;
-        
-        console.log(textToChange);
-        console.log(secondValue);
 
         if(secondValue == null) textToChange.innerHTML = texts[section][value];
         else textToChange.innerHTML = texts[section][value][secondValue];

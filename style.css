@@ -104,6 +104,7 @@ PRESENTACION
     display: flex;
     justify-content: space-between;
     background-color: #F1F1F1;
+    gap: 45px;
 }
 
 .presentation__txt{
@@ -120,13 +121,36 @@ PRESENTACION
 
 .presentation__txt-content{
     margin: 40px 10px 0 0;
-
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-
     color: rgba(21,20,57,0.4);
 }
+
+.presentation__txt-button{
+    width: 130px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation__txt-button span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1e0e62;
+    margin: 0 auto;
+}
+
+.presentation__txt-button:hover{
+    cursor: pointer;
+}
+
 
 .presentation__img{
     width: 570px;
@@ -141,6 +165,8 @@ PRESENTACION
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    min-width: 200px;
+    min-height: 324px;
 }
 
 @media (width<850px) {
@@ -156,6 +182,10 @@ PRESENTACION
         margin-left: 48px;
         width: 100%;
         height: 300px;
+    }
+
+    .presentation__img img{
+        width: 50%;
     }
 }
 
@@ -175,10 +205,11 @@ HABILIDADES
 */
 
 .skills{
-    height: 600px;
+    height: 500px;
     background-color: #F1F1F1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .skills__container{
@@ -186,12 +217,12 @@ HABILIDADES
     margin: 0 auto;
 }
 
+
 /*
 TITULOS PARA DOS SECCIONES
 */
 .titles{
     text-align: center;
-    margin-top: 100px;
 }
 
 .titles h1{
@@ -213,6 +244,17 @@ TITULOS PARA DOS SECCIONES
 .skill{
     text-align: center;
     max-width: 280px;
+}
+
+.skill__logos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill__logos img{
+    width: 50px;
+    height: 50px;
 }
 
 .skill h3{
@@ -248,7 +290,6 @@ TITULOS PARA DOS SECCIONES
     .skills__content{
         flex-direction: column;
         height: 70%;
-        justify-content: space-between;
         margin-top: 45px;
     }
 
@@ -257,22 +298,30 @@ TITULOS PARA DOS SECCIONES
         text-align: left;
     }
 
+    .skill__logos{
+        justify-content: flex-start;
+    }
+
 }
 
 /*
 EXPERIENCIA
 */
 
+.experience{
+    display: flex;
+    justify-content: center;
+}
+
 .experience__container{
-    width: 80%;
-    margin: 0 auto;
+    padding: 5rem;
 }
 
 .grid-layout{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 480px;
-    margin: 80px 0 122px 0;
+    margin-top: 80px;
 }
 
 .experience__titles a button{
@@ -301,7 +350,7 @@ EXPERIENCIA
 
 .experience__project-img{
     width: 100%;
-    height: 63%;
+    height: 250px;
 
 }
 
@@ -334,7 +383,12 @@ EXPERIENCIA
 }
 
 @media (width<850px) {
+    .experience__container{
+        padding: 1rem;
+    }
+
     .grid-layout{ 
+        grid-template-rows: 400px;
         grid-template-columns: auto;
         margin-bottom: 0;
     }
@@ -345,6 +399,10 @@ EXPERIENCIA
 
     .experience__titles button{
         margin-top: 25px;
+    }
+
+    .experience__project-img{
+        height: 215px;
     }
 }
 
