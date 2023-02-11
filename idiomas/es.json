@@ -18,36 +18,48 @@
     "experience":{
         "title":"Mi experiencia",
         "project-1":{
-            "title":"Presupuesto Simplificado",
-            "description":"Aplicación que te permite controlar tus gastos.",
+            "title":"Info countries app",
+            "description":"Te permite ver informacion de todos los paises del mundo, y a su vez puedes observar info más detallada de cada país. Consume REST Countries API.",
             "github":"GitHub del proyecto",
             "page":"Página"
         },
         "project-2":{
+            "title":"To-do list app",
+            "description":"Lista de tareas. Las guarda en LocalStorage. Además, se pueden reordenar, editar y eliminar.",
+            "github":"GitHub del proyecto",
+            "page":"Página"
+        },
+        "project-3":{
+            "title":"Presupuesto simplificado",
+            "description":"Aplicación que te permite controlar tus gastos",
+            "github":"GitHub del proyecto",
+            "page":"Página"
+        },
+        "project-4":{
             "title":"Generador de contraseñas",
             "description":"Aplicación que te permite generar contraseñas aleatoriamente, aunque la podes ir personalizando seleccionando distintas opciones.",
             "github":"GitHub del proyecto",
             "page":"Página"
         },
-        "project-3":{
+        "project-5":{
             "title":"Aplicación del clima",
             "description":"Básicamente, es una app del clima que te permite consultar el clima y el pronostico para la ubicación donde te encontrás u otras ciudades en tiempo real.",
             "github":"GitHub del proyecto",
             "page":"Página"
         },
-        "project-4":{
+        "project-6":{
             "title":"Pronóstico para el mundial 2022",
             "description":"El juego se trata de ir eligiendo tus equipos favoritos desde las fases iniciales hasta la final. Además, posee un apartado donde podes ver los resultados de todos los partidos en tiempo real.",
             "github":"GitHub del proyecto",
             "page":"Página"
         },
-        "project-5":{
+        "project-7":{
             "title":"Proyecto Cripto",
             "description":"Lista de las 25 criptos de mayor market cap. Y también cotización de algunas criptos en tres monedas FIAT. Consumo de la API de CoinGecko.",
             "github":"GitHub del proyecto",
             "page":"Página"
         },
-        "project-6":{
+        "project-8":{
             "title":"Templates para pizzerias",
             "description":"La realización de estas landing pages me permitieron mejorar mis skills en HTML y CSS.",
             "github":"GitHub del proyecto",

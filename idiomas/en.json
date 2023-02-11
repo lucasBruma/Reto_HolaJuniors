@@ -18,36 +18,48 @@
     "experience":{
         "title":"My experience",
         "project-1":{
+            "title":"Info countries app",
+            "description":"It allows you to view information about all the countries in the world, and at the same time you can observe more detailed information about each country. It consumes REST Countries API.",
+            "github":"Github of this project",
+            "page":"Page"
+        },
+        "project-2":{
+            "title":"To-do list app",
+            "description":"Task list. It saves them in LocalStorage. In addition, they can be reordered, edited, and deleted.",
+            "github":"Github of this project",
+            "page":"Page"
+        },
+        "project-3":{
             "title":"Simplified budget",
             "description":"App that enables you to manage your expenses",
             "github":"Github of this project",
             "page":"Page"
         },
-        "project-2":{
+        "project-4":{
             "title":"Password Generator",
             "description":"App that enables you to generate new passwords. Besides, you can custom it checking and unchecking some options.",
             "github":"Github of this project",
             "page":"Page"
         },
-        "project-3":{
+        "project-5":{
             "title":"Weather App",
             "description":"Basically, it is a weather app where you can check the weather and forecast of your city or other cities in realtime.",
             "github":"Github of this project",
             "page":"Page"
         },
-        "project-4":{
+        "project-6":{
             "title":"World cup 2022 predictor",
             "description":"This game is about choosing your favorite teams from the initial phases to the final. Also, there is another page where you can check the status of every game in real time.",
             "github":"Github of this project",
             "page":"Page"
         },
-        "project-5":{
+        "project-7":{
             "title":"Crypto Project",
             "description":"List of the 25 cryptos by market cap. And also the price of some cryptos in three FIAT currencies. (CoinGecko API)",
             "github":"Github of this project",
             "page":"Page"
         },
-        "project-6":{
+        "project-8":{
             "title":"Pizza shops templates",
             "description":"The realization of these landing pages allowed me to improve my skills in HTML and CSS.",
             "github":"Github of this project",

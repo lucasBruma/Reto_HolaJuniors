@@ -257,6 +257,10 @@ TITULOS PARA DOS SECCIONES
     height: 50px;
 }
 
+.skill__logos i{
+    font-size: 50px;
+}
+
 .skill h3{
     margin-bottom: 20px;
 
